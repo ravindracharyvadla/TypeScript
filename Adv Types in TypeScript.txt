@@ -1,0 +1,23 @@
+Adv Types
+-------------------------
+
+1. Partial
+2. InstanceType<T> 
+
+
+
+1.Partial
+--------------------------------------
+interface Employee {
+  	
+}
+type empObject = Partial<Employee>
+
+
+2. InstanceType<T> 
+---------------------------------------------
+type obj1 = InstanceType<typeof Employee>; 
+
+
+
+

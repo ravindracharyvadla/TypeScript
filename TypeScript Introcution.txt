@@ -1,0 +1,22 @@
+TypeScript:
+-----------------------------
+
+1. 	JavaScript -client side.
+	Node.js -server-side technology
+
+
+
+2. TypeScript
+	-strongly typed (variable, Strongly type,static typing)
+	-object oriented (classes, interfaces, inheritance,Generics, Enum etc)
+	-compiled language. (TypeScript to its JavaScript equivalent using TSC (TypeScript Compiler) command)
+
+3. TypeScript =JavaScript + some other additional features.
+	some other additional features:
+		- error-checking feature at compilation time
+- autocompletion, type checking, and source documentation.
+
+4. TypeScript was designed by Anders Hejlsberg (designer of C#) at Microsoft.
+
+5. Use:  large-scale JavaScript application development
+

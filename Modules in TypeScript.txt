@@ -1,0 +1,28 @@
+Modules:
+------------------
+
+EmployeeExport.ts
+----------------
+
+
+export class Employee {
+    employeeId:number;
+    employeeName: string;
+    constructor(employeeId:number, employeeName: string) {
+       
+    }
+    displayEmployee() {
+        
+    }
+}
+
+
+
+
+EmployeeImport.ts
+------------------------------------
+import * as Emp from "./Employee"
+
+
+let empObj = new Emp.Employee(1020, "Raju");
+empObj.displayEmployee(); 

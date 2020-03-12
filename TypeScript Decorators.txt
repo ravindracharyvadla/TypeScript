@@ -1,0 +1,25 @@
+TypeScript Decorators:
+---------------------------------
+
+To support annotating or modifying classes and class members. 
+Decorators provide a way to add both annotations
+
+NOTE: Decorators are an experimental feature that may change in future releases.
+
+$tsc --target ES5 --experimentalDecorators 
+
+Types:
+---------------------------
+1. Class Decorators   		(@sealed -cannot inherit the class)
+2. Method Decorators		(@log -log the new item entry)
+3. Accessor Decorators		(@configurable -getter and setter property of the class)
+4. Property Decorators		(@ReadOnly-name property as read-only, so we can't change its value)
+5. Parameter Decorators		
+
+@validate  
+employeeInfo(@required employeeName: string):void {  
+}
+
+
+
+

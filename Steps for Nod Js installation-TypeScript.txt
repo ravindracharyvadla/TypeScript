@@ -1,0 +1,14 @@
+Installing Node.js
+---------------------------------
+
+Step-1: Download Node.js from https://nodejs.org/en/download
+
+step-2: Run the .msi installer for Node.
+
+step-3:To verify if the installation was successful, enter the following command in the command prompt.
+
+node –v
+
+step-4: Type the following command in the terminal window (Command Prompt) to install TypeScript.
+
+npm install -g typescript
